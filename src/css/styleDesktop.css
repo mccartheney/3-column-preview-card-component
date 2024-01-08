@@ -1,0 +1,39 @@
+@media (min-width : 1024px) {
+    .cards {
+        background-color: aqua;
+        width: 70vw;
+        height: 40vw;
+        flex-direction: row;
+    }
+
+    .cards_card {
+        padding: 5%;
+        width: 33%;
+        position: relative;
+    }
+
+    .cards_card_content_title {
+        font-size: calc(9px + 1vw);
+    }
+    
+    .cards_card_content_textContent{
+        margin-top: 10%;
+        font-size: calc(1px + 1vw);
+        line-height: calc(1.1em + 0.5vw);
+    }
+    .cards_card_content_button {
+        position: absolute;
+        bottom: 30px;
+
+    }
+    .cards_card_content_button button {
+        font-size: calc(1px + 1vw);
+    }
+
+    .cards_card_content_button button:hover {
+        background-color: transparent;
+        border: 1px solid hsl(0, 0%, 100%);
+        color: white;
+        cursor: pointer;
+    }
+}   

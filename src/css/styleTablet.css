@@ -1,0 +1,14 @@
+@media (min-width : 425px) and (max-width : 1023px) {
+    .cards {
+        width: 350px;
+    }
+    .cards_card_content_title{
+        font-size: 18px;
+    }
+    .cards_card_content_textContent{
+        font-size: 16px;
+    }
+    .cards_card_content_button button {
+        font-size: 17px;
+    }
+}
